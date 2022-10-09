@@ -26,3 +26,13 @@ ul > li {
     background-color: darkgray;
 }
 /* никогда не делать стили для id только классы */
+
+.text {
+    font-family: sans-serif; /* быстый набор ff:ss */
+    font-size: 18px;
+    line-height: 1.8;
+    color: blueviolet;
+}
+.card-description {
+    font-size: 12px;
+}

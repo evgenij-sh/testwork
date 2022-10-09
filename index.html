@@ -11,14 +11,15 @@
     <p>
         Тест css для тега p не вложеного в div
     </p>
-<div class="wrapper"> <!-- оборачиваем страницу в блок -->
-    <header>
-        <h1>Test css</h1><br>
+<div class="wrapper" style="color :red;"> <!-- оборачиваем страницу в блок  style это инлайн стиль-->
+    <header>                                <!-- такая запись имеет высший приоритет и перебивает все --> 
+        <h1>Test css</h1><br>               <!-- ; после red  ставить правильный запись -->
     <a href="#block4"><h3>просмотр вниз</h3></a>
 
         <nav>
-            <ul>
-                <li><a href="#">link1</a></li>
+            <ul class="list"> <!-- стандартное название класса дляя списка list -->
+                <!-- для элемента list-item для ссылки в списке list-link -->
+                <li class="list-item"><a class="list-link" href="#">link1</a></li>
                 <li><a href="#">link2</a></li>
                 <li><a href="#">link3</a></li>
                 <li><a href="#">link4</a></li>
@@ -30,13 +31,14 @@
     </header>
     <main>
         <!-- ######################## block1 ############################# -->
-        <div id="block1" class="block">
-            <div class="img-wrapper">
-            <img src="./img/article_1.png" alt="volkswagen" title="volkswagen" width="300" height="200">
+        <div id="block1" class="card">
+            <div class="card-image-wrp">
+            <img class="card-image" src="./img/article_1.png" alt="volkswagen" title="volkswagen" width="300" height="200">
             </div>
-            <h2>Volksvagen</h2>
-            <h3>Подробнее ...</h3>
-            <p>
+            <h5 class="card-subtitle">Volksvagen</h5>
+            <h3 class="card-title">Подробнее ...</h3>
+            <p class="card-description text other againe"> <!-- text без тире это отдельный
+                                        класс записаный через пробел их может быть много -->
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
             </p>
         </div>
