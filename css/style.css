@@ -30,9 +30,13 @@ ul > li {
 .text {
     font-family: sans-serif; /* быстый набор ff:ss */
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.8; /* междустрочный */
     color: blueviolet;
 }
 .card-description {
     font-size: 12px;
+    
+}
+.text-i{
+    text-indent: 60px; /* отступ первого предолжения */
 }
