@@ -1,3 +1,80 @@
+* {                 
+    color: aqua;      /* * - применить ко всему тексту, низкий приоритет   */
+    
+}
+/* селекторы тега их использовать плохая практика, нужно использовать селекторы класса */
+/* =========================================================================================== */
 h1 {
-    color: red;
+    color: red;     /* К заголовку h1   */
+}
+
+p {
+     color:green;   /* к тегу p  */
+     
+}
+
+div p {
+    color: yellow;  /* ко всем p внутри div */
+}
+ul > li {
+    color:chocolate; /* обращение к потомку ul -> li делает желтыми только кружечки  */
+}
+/* ============================================================================================= */
+.wrapper{
+    width: 900px;
+    margin: auto;    /* выравниваем страницу по ширине страницы так нужно делать для правильного масштабирования */
+    /*background-color: darkgray; */
+}
+/* никогда не делать стили для id только классы */
+
+.text {
+    font-family: sans-serif; /* быстый набор ff:ss */
+    font-size: 18px;
+    line-height: 1.8; /* междустрочный */
+    color: blueviolet;
+}
+.card-description {
+    font-size: 12px;
+    
+}
+.text-i{
+    text-indent: 60px; /* отступ первого предолжения */
+}
+.list{
+
+    list-style: none;  /*убирает кружечки в списке отменяет стили*/
+    
+    display: inline-block;
+    margin-left: 100px;
+
+    
+    
+
+}
+.list-item{
+
+    display: inline-block; /*преобразует блочный элемент в строчный (появляеться право задавать ширину)*/
+                            /*строчному элементу нельзя задать ширину или размеры, инлайн блок может */
+    
+}
+.list-link{
+    display: block; /* определяет ширину ссылки по ширине родителя  */
+    width: 150px;  /* задаем ширину потомка 150 */
+    background-color: coral;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+
+}
+.list-link:hover {
+    color: chartreuse;
+}
+main{
+    font-size: 0;
+}
+.card {
+    font-size: 16px;
+    display: inline-block;
+    width: 49%;
 }
