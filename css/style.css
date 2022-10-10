@@ -76,5 +76,9 @@ main{
 .card {
     font-size: 16px;
     display: inline-block;
-    width: 49%;
+    width: calc(49% - 30px);
+}
+.card-mr{
+    background-color: cornflowerblue;
+    margin-right: 30px;
 }
