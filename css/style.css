@@ -22,7 +22,7 @@ ul > li {
 .wrapper{
     width: 900px;
     margin: auto;    /* выравниваем страницу по ширине страницы так нужно делать для правильного масштабирования */
-    /*background-color: darkgray; */
+    background-color: darkgray;
 }
 /* никогда не делать стили для id только классы */
 
@@ -32,7 +32,7 @@ ul > li {
     line-height: 1.8; /* междустрочный */
     color: blueviolet;
 }
-.card-description {
+.card-title {
     font-size: 12px;
     
 }
