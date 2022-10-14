@@ -36,6 +36,9 @@ ul > li {
     /* font-size: 12px; 
     
 } */
+body{
+    font-family: sans-serif;
+}
 .text-i{
     text-indent: 20px; /* отступ первого предолжения */
 }
