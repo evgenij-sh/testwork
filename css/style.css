@@ -22,7 +22,7 @@ ul > li {
 .wrapper{
     width: 900px;
     margin: auto;    /* выравниваем страницу по ширине страницы так нужно делать для правильного масштабирования */
-    background-color: #555;
+    padding-top: 32px;
 }
 /* никогда не делать стили для id только классы */
 
@@ -47,6 +47,7 @@ ul > li {
 .list{
 
     list-style: none;  /*убирает кружечки в списке отменяет стили*/
+    margin-left: 150px;
     
     display: inline-block;
     margin-left: 100px;
@@ -60,13 +61,6 @@ ul > li {
                             /*строчному элементу нельзя задать ширину или размеры, инлайн блок может */
     
 }
-.list-block{
-    display: block;
-    margin-left: 150px;
-    
-    
-    
-    }
 .list-link{
     display: block; /* определяет ширину ссылки по ширине родителя  */
     width: 150px;  /* задаем ширину потомка 150 */
@@ -95,6 +89,10 @@ main{
     border: 2px grey solid;
     margin-bottom: 5px;
     
+}
+.block-mrg {
+    /* margin-right:30px; */
+    background-color: antiquewhite;
 }
 .block-title,
 .block-link {
