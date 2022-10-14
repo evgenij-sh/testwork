@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,72 +10,84 @@
 </head>
 
 <body>
-    <header>
-        <h1>Test css without  div </h1><br>
-    <a href="#block4"><h3>просмотр вниз</h3></a>
-    <div class="wrapper">
-        <nav>
+    <div сlass="wrapper">
+        <!-- wrapper должен начинаться над header -->
+        <header>
+            <h1>Test css without div </h1><br>
+            <a href="#block4">
+                <h3>просмотр вниз</h3>
+            </a>
             <ul class="list-block">
                 <li class="list-element"><a class="list-link" href="#">Volkswagen</a></li>
                 <li class="list-element"><a class="list-link" href="#">Subaru</a></li>
                 <li class="list-element"><a class="list-link" href="#">Ford</a></li>
                 <li class="list-element"><a class="list-link" href="#">Lada</a></li>
             </ul>
-
-        </nav>
+            
+        </header>
+        <main>
+            <!-- ######################## block1 ############################# -->
+            <div id="block1" class="block text-i">
+                <div class="img-wrapper">
+                    <img src="./img/article_1.png" alt="volkswagen" title="volkswagen" width="300" height="200">
+                </div>
+                <h2 class="block-title">Volksvagen</h2>
+                <h3 class="block-link">Подробнее ...</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse
+                    ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam
+                    laudantium illo voluptates neque fugiat quisquam id? Maxime.
+                </p>
+            </div>
+            <!-- ######################## block2 ############################# -->
+            <div id="block2" class="block text-i">
+                <div class="img-wrapper">
+                    <img src="./img/article_2.png" alt="subaru" title="subaru" width="300" height="200">
+                </div>
+                <h2 class="block-title">Subaru</h2>
+                <h3 class="block-link">Подробнее ...</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse
+                    ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam
+                    laudantium illo voluptates neque fugiat quisquam id? Maxime.
+                </p>
+            </div>
+            <!-- ######################## block3 ############################# -->
+            <div id="block3" class="block text-i">
+                <div class="img-wrapper">
+                    <img src="./img/article_3.png" alt="ford" title="ford" width="300" height="200">
+                </div>
+                <h2 class="block-title">Ford</h2>
+                <h3 class="block-link">Подробнее ...</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse
+                    ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam
+                    laudantium illo voluptates neque fugiat quisquam id? Maxime.
+                </p>
+            </div>
+            <!-- ######################## block4 ############################# -->
+            <div id="block4" class="block text-i">
+                <div class="img-wrapper">
+                    <img src="./img/article_4.png" alt="lada" title="lada" width="300" height="200">
+                </div>
+                <h2 class="block-title">Lada</h2>
+                <h3 class="block-link">Подробнее ...</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse
+                    ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam
+                    laudantium illo voluptates neque fugiat quisquam id? Maxime.
+                </p>
+            </div>
     </div>
-    </header>
-    <main>
-        <!-- ######################## block1 ############################# -->
-        <div id="block1" class="block">
-            <div class="img-wrapper">
-            <img src="./img/article_1.png" alt="volkswagen" title="volkswagen" width="300" height="200">
-            </div>
-            <h2 class="block-title">Volksvagen</h2>
-            <h3 class="block-link">Подробнее ...</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
-            </p>
-        </div>
-        <!-- ######################## block2 ############################# -->
-        <div id="block2" class="block">
-            <div class="img-wrapper">
-            <img src="./img/article_2.png" alt="subaru" title="subaru" width="300" height="200">
-            </div>
-            <h2 class="block-title">Subaru</h2>
-            <h3 class="block-link">Подробнее ...</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
-            </p>
-        </div>
-        <!-- ######################## block3 ############################# -->
-        <div id="block3" class="block">
-            <div class="img-wrapper">
-            <img src="./img/article_3.png" alt="ford" title="ford" width="300" height="200">
-            </div>
-            <h2 class="block-title">Ford</h2>
-            <h3 class="block-link">Подробнее ...</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
-            </p>
-        </div>
-        <!-- ######################## block4 ############################# -->
-        <div id="block4" class="block">
-            <div class="img-wrapper">
-            <img src="./img/article_4.png" alt="lada" title="lada" width="300" height="200">
-            </div>
-            <h2 class="block-title">Lada</h2>
-            <h3 class="block-link">Подробнее ...</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
-            </p>
-        </div>
     </main>
     <footer>
-            <button>Learn More</button>
+        <button>Learn More</button>
     </footer>
 
-    <a href="#block1"><h3>Вверх</h3></a>
-    
+    <a href="#block1">
+        <h3>Вверх</h3>
+    </a>
+
 </body>
+
 </html>

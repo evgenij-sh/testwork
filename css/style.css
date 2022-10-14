@@ -22,7 +22,7 @@ ul > li {
 .wrapper{
     width: 900px;
     margin: auto;    /* выравниваем страницу по ширине страницы так нужно делать для правильного масштабирования */
-    background-color: darkgray;
+    background-color: #555;
 }
 /* никогда не делать стили для id только классы */
 
@@ -37,7 +37,7 @@ ul > li {
     
 }
 .text-i{
-    text-indent: 60px; /* отступ первого предолжения */
+    text-indent: 20px; /* отступ первого предолжения */
 }
 .list{
 
@@ -56,14 +56,22 @@ ul > li {
                             /*строчному элементу нельзя задать ширину или размеры, инлайн блок может */
     
 }
+.list-block{
+    display: block;
+    margin-left: 150px;
+    
+    
+    
+    }
 .list-link{
     display: block; /* определяет ширину ссылки по ширине родителя  */
     width: 150px;  /* задаем ширину потомка 150 */
-    background-color: coral;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     color: black;
+    background-color: bisque;
+    margin: 10px;
 
 }
 .list-link:hover {
@@ -77,7 +85,7 @@ main{
     display: inline-block;
     width: 50%;
     margin-bottom: 20px;
-    background-color: darkgrey;
+    
 }
 .block-title,
 .block-link {
