@@ -26,29 +26,33 @@ ul > li {
 }
 /* никогда не делать стили для id только классы */
 
+.head-link {
+    display: inline-block;
+    
+}
+
 .text {
     font-family: sans-serif; /* быстый набор ff:ss */
     font-size: 18px;
-    line-height: 1.8; /* междустрочный */
-    color: blueviolet;
+    line-height: 1.2; /* междустрочный */
+    color:fff;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .card-description {
     font-size: 12px;
     
 }
-.text-i{
-    text-indent: 60px; /* отступ первого предолжения */
-}
+
 .list{
 
     list-style: none;  /*убирает кружечки в списке отменяет стили*/
     
     display: inline-block;
     margin-left: 100px;
-
-    
-    
-
+}
+.list-block{
+    padding-left: 150px;
 }
 .list-element{
 
@@ -59,25 +63,51 @@ ul > li {
 .list-link{
     display: block; /* определяет ширину ссылки по ширине родителя  */
     width: 150px;  /* задаем ширину потомка 150 */
-    background-color: coral;
+    background-color: gray;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: black;
+    color: white;
+    
 
 }
 .list-link:hover {
     color: chartreuse;
 }
+.card-mr{
+    margin-left: 50px;
+}
 main{
     font-size: 0;
 }
-.block {
+.card {
     font-size: 16px;
     display: inline-block;
-    width: 50%;
+    width: 45%;
+    text-indent: 20px;
+    border: 2px grey solid;
+    margin-bottom: 5px;
+    
 }
 .block-title,
 .block-link {
     text-align: center;
+}
+.head-link{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.btn{
+    margin-bottom: 10px;
+    display: block;
+    width: 100px;
+
+}
+.btn:hover {
+    background-color: coral;
 }
