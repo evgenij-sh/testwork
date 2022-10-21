@@ -26,35 +26,33 @@ ul > li {
 }
 /* никогда не делать стили для id только классы */
 
-.head-link {
-    display: inline-block;
+/* .text {
+    /* font-family: sans-serif; /* быстый набор ff:ss */
+    /* font-size: 18px; */
+    /* line-height: 1.8; междустрочный 
+     
+} */
+/* .card-title {
+    /* font-size: 12px; 
     
+} */
+body{
+    font-family: sans-serif;
 }
-
-.text {
-    font-family: sans-serif; /* быстый набор ff:ss */
-    font-size: 18px;
-    line-height: 1.2; /* междустрочный */
-    color:fff;
-    padding-left: 3px;
-    padding-right: 3px;
+.text-i{
+    text-indent: 20px; /* отступ первого предолжения */
 }
-.card-title {
-    font-size: 12px;
-    
-}
-
 .list{
 
     list-style: none;  /*убирает кружечки в списке отменяет стили*/
     margin-left: 150px;
     
-    display: inline-block;
-    margin-left: 100px;
 }
+
 .list-block{
-    padding-left: 150px;
-}
+    list-style: none;  /*убирает кружечки в списке отменяет стили*/
+    margin-left: 150px;
+ }
 .list-element{
 
     display: inline-block; /*преобразует блочный элемент в строчный (появляеться право задавать ширину)*/
@@ -64,12 +62,15 @@ ul > li {
 .list-link{
     display: block; /* определяет ширину ссылки по ширине родителя  */
     width: 150px;  /* задаем ширину потомка 150 */
-    background-color: gray;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     color: white;
     
+    background-color: bisque;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
 
 }
 .list-link:hover {
@@ -84,10 +85,16 @@ main{
 .card {
     font-size: 16px;
     display: inline-block;
-    width: 45%;
+    width:calc(45%;
     text-indent: 20px;
     border: 2px grey solid;
     margin-bottom: 5px;
+    
+}
+.block-mrg {
+    /* margin-right:30px; */
+    background-color: antiquewhite - 30px);
+    margin-bottom: 20px;
     
 }
 .block-mrg {
