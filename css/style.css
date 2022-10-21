@@ -6,12 +6,10 @@
  /* h1 { 
     color: red;     /* К заголовку h1   */
 /*} 
-
 p {
      color:green;   /* к тегу p  */
      
 /* }
-
 div p {
     color: yellow;  /* ко всем p внутри div */
 /*}
@@ -22,37 +20,38 @@ ul > li {
 .wrapper{
     width: 900px;
     margin: auto;    /* выравниваем страницу по ширине страницы так нужно делать для правильного масштабирования */
-    padding-top: 32px;
+    /*background-color: darkgray; */
 }
 /* никогда не делать стили для id только классы */
 
-/* .text {
-    /* font-family: sans-serif; /* быстый набор ff:ss */
-    /* font-size: 18px; */
-    /* line-height: 1.8; междустрочный 
-     
-} */
-/* .card-title {
-    /* font-size: 12px; 
+.head-link {
+    display: inline-block;
     
-} */
-body{
-    font-family: sans-serif;
 }
-.text-i{
-    text-indent: 20px; /* отступ первого предолжения */
+
+.text {
+    font-family: sans-serif; /* быстый набор ff:ss */
+    font-size: 18px;
+    line-height: 1.2; /* междустрочный */
+    color:fff;
+    padding-left: 3px;
+    padding-right: 3px;
 }
+.card-description {
+    font-size: 12px;
+    
+}
+
 .list{
 
     list-style: none;  /*убирает кружечки в списке отменяет стили*/
-    margin-left: 150px;
     
+    display: inline-block;
+    margin-left: 100px;
 }
-
 .list-block{
-    list-style: none;  /*убирает кружечки в списке отменяет стили*/
-    margin-left: 150px;
- }
+    padding-left: 150px;
+}
 .list-element{
 
     display: inline-block; /*преобразует блочный элемент в строчный (появляеться право задавать ширину)*/
@@ -62,34 +61,51 @@ body{
 .list-link{
     display: block; /* определяет ширину ссылки по ширине родителя  */
     width: 150px;  /* задаем ширину потомка 150 */
+    background-color: gray;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: black;
-    background-color: bisque;
-    margin: 10px;
-    font-family: sans-serif;
-    font-weight: bold;
+    color: white;
+    
 
 }
 .list-link:hover {
     color: chartreuse;
 }
+.card-mr{
+    margin-left: 50px;
+}
 main{
     font-size: 0;
 }
-.block {
+.card {
     font-size: 16px;
     display: inline-block;
-    width:calc(50% - 30px);
-    margin-bottom: 20px;
+    width: 45%;
+    text-indent: 20px;
+    border: 2px grey solid;
+    margin-bottom: 5px;
     
-}
-.block-mrg {
-    /* margin-right:30px; */
-    background-color: antiquewhite;
 }
 .block-title,
 .block-link {
     text-align: center;
+}
+.head-link{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.btn{
+    margin-bottom: 10px;
+    display: block;
+    width: 100px;
+
+}
+.btn:hover {
+    background-color: coral;
 }
