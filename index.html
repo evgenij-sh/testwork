@@ -5,24 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Homework</title>
+    <title>Cars</title>
 </head>
-<body>
-    <p>
-        Тест css для тега p не вложеного в div
-    </p>
-<div class="wrapper" style="color :red;"> <!-- оборачиваем страницу в блок  style это инлайн стиль-->
-    <header>                                <!-- такая запись имеет высший приоритет и перебивает все --> 
-        <h1>Test css</h1><br>               <!-- ; после red  ставить правильный запись -->
-    <button ><h3>просмотр вниз</h3></button>
 
+<body>
+    <header>
+        <h1>Test css without  div </h1><br>
+    <a href="#block4"><h3>просмотр вниз</h3></a>
+    <div class="wrapper">
         <nav>
-            <ul class="list"> <!-- стандартное название класса дляя списка list -->
-                <!-- для элемента list-item для ссылки в списке list-link -->
-                <li class="list-item"><a class="list-link" href="#">Volksvagen</a></li>
-                <li class="list-item"><a class="list-link" href="#">Subaru</a></li>
-                <li class="list-item"><a class="list-link" href="#">Ford</a></li>
-                <li class="list-item"><a class="list-link" href="#">Lada</a></li>
+            <ul class="list-block">
+                <li class="list-element"><a class="list-link" href="#">Volkswagen</a></li>
+                <li class="list-element"><a class="list-link" href="#">Subaru</a></li>
+                <li class="list-element"><a class="list-link" href="#">Ford</a></li>
+                <li class="list-element"><a class="list-link" href="#">Lada</a></li>
             </ul>
 
         </nav>
@@ -35,10 +31,9 @@
             <div class="card-image-wrp">
             <img class="card-image" src="./img/article_1.png" alt="volkswagen" title="volkswagen" width="300" height="200">
             </div>
-            <h5 class="card-subtitle">Volksvagen</h5>
-            <h3 class="card-title">Подробнее ...</h3>
-            <p class="card-description text other againe text-i text-light"> <!-- text без тире это отдельный
-                                        класс записаный через пробел их может быть много -->
+            <h2 class="block-title">Volksvagen</h2>
+            <h3 class="block-link">Подробнее ...</h3>
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
             </p>
         </div>
@@ -47,9 +42,9 @@
             <div class="img-wrapper">
             <img src="./img/article_2.png" alt="subaru" title="subaru" width="300" height="200">
             </div>
-            <h5 class="card-subtitle"></h5>Subaru</h5>
-            <h3 class="card-title">Подробнее ...</h3>
-            <p class="card-description text-i text-dark" >
+            <h2 class="block-title">Subaru</h2>
+            <h3 class="block-link">Подробнее ...</h3>
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
             </p>
         </div>
@@ -58,9 +53,9 @@
             <div class="img-wrapper">
             <img src="./img/article_3.png" alt="ford" title="ford" width="300" height="200">
             </div>
-            <h5 class="card-subtitle"></h5>Ford</h5>
-            <h3 class="card-title">Подробнее ...</h3>
-            <p class="card-description text-i">
+            <h2 class="block-title">Ford</h2>
+            <h3 class="block-link">Подробнее ...</h3>
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
             </p>
         </div>
@@ -69,9 +64,9 @@
             <div class="img-wrapper">
             <img src="./img/article_4.png" alt="lada" title="lada" width="300" height="200">
             </div>
-            <h5 class="card-subtitle"></h5>Lada</h5>
-            <h3 class="card-title">Подробнее ...</h3>
-            <p class="card-description text-i">
+            <h2 class="block-title">Lada</h2>
+            <h3 class="block-link">Подробнее ...</h3>
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum minima, mollitia molestias esse ex eum numquam doloremque quo totam impedit provident nemo ipsa ullam, facilis ipsum aliquam laudantium illo voluptates neque fugiat quisquam id? Maxime.
             </p>
         </div>
